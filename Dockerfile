@@ -8,6 +8,4 @@ RUN apt-get install -y libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev bui
 RUN npm install -g grunt-cli phantomjs bower coffee-script gulp
 RUN apt-get install -y ruby-dev
 RUN gem install sass -v 3.4.13
-RUN gem install compass -v 1.0.1
-RUN gem install compass-core -v 1.0.1
 
