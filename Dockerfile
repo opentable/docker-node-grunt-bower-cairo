@@ -1,4 +1,4 @@
-FROM google/nodejs:0.10.33
+FROM docker.otenv.com/ot-node-base-0.10.40:latest
 
 MAINTAINER Joseph M. "joe@teneleven.co.uk"
 
