@@ -9,4 +9,5 @@ RUN apt-get install -y graphicsmagick
 RUN npm install -g grunt-cli phantomjs bower coffee-script gulp
 RUN apt-get install -y ruby-dev
 RUN gem install sass -v 3.4.13
-
+RUN npm install -g protractor@2.5.1
+RUN webdriver-manager update
